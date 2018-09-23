@@ -2,7 +2,7 @@
 
 To build the project
 
-```bash
+```Shell
 chmod 777 waf.py
 ./waf.py configure
 ./waf.py
