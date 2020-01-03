@@ -6,7 +6,7 @@ import os.path as p
 import sys
 
 d = p.dirname(p.realpath(__file__))
-waf_light = p.join(d, '..', '..', 'modules', 'waf', 'waf-light')
+waf_light = p.join(d, '..', '..', 'modules', 'waf', 'waf-light') # Path to waf-light ../../modules/waf/waf-light
 
 python = sys.executable
 
